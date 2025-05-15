@@ -1,0 +1,30 @@
+{
+  "name": "sui-faucet-claimer",
+  "version": "1.0.0",
+  "description": "SUI Faucet Claimer with 2Captcha support by Airdrop Laura",
+  "main": "sui-faucet-claimer.js",
+  "scripts": {
+    "start": "node sui-faucet-claimer.js",
+    "test": "node sui-faucet-claimer.js --help"
+  },
+  "keywords": [
+    "sui",
+    "faucet",
+    "claimer",
+    "airdrop",
+    "captcha",
+    "proxy"
+  ],
+  "author": "Bastiar - Airdrop Laura",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui.js": "^0.30.0",
+    "@scure/bip39": "^1.2.1",
+    "axios": "^1.6.0",
+    "yargs": "^17.7.2",
+    "https-proxy-agent": "^6.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
