@@ -20,7 +20,7 @@ Automated SUI testnet faucet claimer with CAPTCHA solving support and proxy rota
 
 1. **Clone this repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AirdropLaura/sui_testnet_claimer.git
    cd sui-faucet-claimer
    ```
 
@@ -32,6 +32,9 @@ Automated SUI testnet faucet claimer with CAPTCHA solving support and proxy rota
 3. **Setup Configuration Files**
 
    #### 📄 Edit config.json
+   ```
+   nano config.json
+   ```
    Update `config.json` with your 2Captcha API key:
    ```json
    {
@@ -43,13 +46,11 @@ Automated SUI testnet faucet claimer with CAPTCHA solving support and proxy rota
      "maxRetries": 3
    }
    ```
-
+   **ganti YOUR_ACTUAL_2CAPTCHA_API_KEY = API Captcha kalian
    #### 👛 Create wallets.txt
    Create a new file named `wallets.txt` and add your wallets (one per line):
    ```
-   word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12
-   abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890
-   suiprivkey1qqqXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   nano wallets.txt
    ```
    
    **Supported wallet formats:**
@@ -65,9 +66,9 @@ Automated SUI testnet faucet claimer with CAPTCHA solving support and proxy rota
    socks5://username:password@proxy3.example.com:1080
    ```
 
-4. **Run the script**
+5. **Run the script**
    ```bash
-   npm start
+   node run.js
    ```
 
 ---
@@ -91,7 +92,7 @@ The script will display an interactive menu with the following options:
 
 ### Command Line Options
 ```bash
-node sui-faucet-claimer.js [options]
+node run.js [options]
 
 Options:
   -k, --2captcha-key    2Captcha API key
