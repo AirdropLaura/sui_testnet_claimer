@@ -21,7 +21,7 @@ Automated SUI testnet faucet claimer with CAPTCHA solving support and proxy rota
 1. **Clone this repository**
    ```bash
    git clone https://github.com/AirdropLaura/sui_testnet_claimer.git
-   cd sui-faucet-claimer
+   cd sui_testnet_claimer
    ```
 
 2. **Install dependencies**
