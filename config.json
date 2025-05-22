@@ -4,5 +4,7 @@
   "delay": 10000,
   "retryDelay": 60000,
   "requestsPerIp": 1,
-  "maxRetries": 3
+  "maxRetries": 3,
+  "captchaUrl": "https://faucet.sui.io",
+  "captchaSitekey": "0x4AAAAAAA11HKyGNZq_dUKj"
 }
